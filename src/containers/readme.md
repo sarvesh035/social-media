@@ -1,0 +1,1 @@
+All React containers ( Redux - component connections ) will be in this folder

@@ -1,0 +1,1 @@
+All redux reducers for app here in this folder

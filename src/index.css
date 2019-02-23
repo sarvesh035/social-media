@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Open Sans";
+  src: local(Open Sans), url("./fonts/open_sans/OpenSans-Light.ttf");
+  src: url("./fonts/open_sans/OpenSans-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: local(Open Sans), url("./fonts/open_sans/OpenSans-Regular.ttf");
+  src: url("./fonts/open_sans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./fonts/open_sans/OpenSans-SemiBold.ttf");
+  src: url("./fonts/open_sans/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  overflow-x: hidden;
+  background-color: #fff;
+  color:#212529;
+  font-family: "Open Sans" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.display-5 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.display-6 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.text-xsmall {
+  color: #999999;
+  font-size: 0.8125rem !important;
+}
+
+.text-small {
+  color: #555555;
+  font-size: 0.875rem !important;
+}
+
+.text-medium {
+  color: #555555;
+  font-size: 0.9375rem !important;
+}
+
+.text-large {
+  color: #555555;
+  font-size: 1rem !important;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.card {
+  border-radius: 2px !important;
+  box-shadow: 0 3px 8px -4px rgba(0,0,0,0.25);
+  border: 0 !important;
+}
+
+.form-control {
+  border-radius: 2px !important;
+}
+
+.btn {
+  border-radius: 2px !important;
+  box-shadow: 0 3px 8px -3px rgba(0,0,0,0.25);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.light {
+  color: #ababab;
+}
+
+.light:hover, .light:active, .light:focus {
+  color: #777777;
+}

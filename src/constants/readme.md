@@ -1,0 +1,1 @@
+All app level constants ( eg. actions names, message) will be in this folder

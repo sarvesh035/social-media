@@ -1,0 +1,16 @@
+#comment-wrapper {
+    min-height: 100vh;
+    background-color: #f2f7fb;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.add-comment-section {
+    background-color: #add6f1;
+}
+
+.avatar {
+    width: 35px;
+}
